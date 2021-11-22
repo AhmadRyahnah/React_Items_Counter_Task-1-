@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerr {
+  margin: 50px;
+  width: 80%;
+  text-align: center;
+  /* background-color: rgb(35, 36, 37); */
+  color: black;
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  text-align: center;
+}
+.card-img img{
+max-width: 80%;
+}
+.info h4{
+  margin-top: 30px;
+}
+.reatee{
+color:  #F8599E;
+font-size: 40px;
+margin: 10px 10px 0 10px;
+}
+.price{
+  margin: 10px;
+}
+.info button{
+  border: none;
+  background-color: tomato;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+}
+.numberItem button{
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 5px ;
+}
